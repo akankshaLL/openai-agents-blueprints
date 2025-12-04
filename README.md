@@ -2,7 +2,7 @@
 # The Complete OpenAI Agents SDK Blueprint
 ## Build and Deploy Production-Ready AI Agents in Under 2 Hours</h3>
 
-![Book Cover](./03-OpenAI-SDK-Blueprint.png)
+
    
   <div>
   <p><strong>Complete educational code examples and production-ready patterns for building AI agents with the OpenAI Agents SDK</strong></p>
