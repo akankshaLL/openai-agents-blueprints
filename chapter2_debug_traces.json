@@ -1,0 +1,70 @@
+[
+  {
+    "timestamp": "2025-06-29T14:58:52.854643",
+    "agent_name": "TestAgent",
+    "user_input": "What is the capital of France?",
+    "execution_time": 0.888159990310669,
+    "success": true,
+    "error_message": null,
+    "token_usage": {
+      "input": 30,
+      "output": 8,
+      "total": 38
+    },
+    "tool_calls": [],
+    "finish_reason": "completed",
+    "guardrail_triggers": 0,
+    "conversation_length": 2
+  },
+  {
+    "timestamp": "2025-06-29T14:58:57.238716",
+    "agent_name": "TestAgent",
+    "user_input": "Explain quantum computing in simple terms",
+    "execution_time": 4.383865118026733,
+    "success": true,
+    "error_message": null,
+    "token_usage": {
+      "input": 29,
+      "output": 214,
+      "total": 243
+    },
+    "tool_calls": [],
+    "finish_reason": "completed",
+    "guardrail_triggers": 0,
+    "conversation_length": 2
+  },
+  {
+    "timestamp": "2025-06-29T14:58:58.473324",
+    "agent_name": "TestAgent",
+    "user_input": "What is 2 + 2?",
+    "execution_time": 1.234384298324585,
+    "success": true,
+    "error_message": null,
+    "token_usage": {
+      "input": 31,
+      "output": 9,
+      "total": 40
+    },
+    "tool_calls": [],
+    "finish_reason": "completed",
+    "guardrail_triggers": 0,
+    "conversation_length": 2
+  },
+  {
+    "timestamp": "2025-06-29T14:59:01.716988",
+    "agent_name": "TestAgent",
+    "user_input": "Tell me a short story about a robot",
+    "execution_time": 3.2434144020080566,
+    "success": true,
+    "error_message": null,
+    "token_usage": {
+      "input": 31,
+      "output": 180,
+      "total": 211
+    },
+    "tool_calls": [],
+    "finish_reason": "completed",
+    "guardrail_triggers": 0,
+    "conversation_length": 2
+  }
+]
