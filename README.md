@@ -1,6 +1,6 @@
 # openai-agents-blueprints
 # The Complete OpenAI Agents SDK Blueprint
-## Build and Deploy Production-Ready AI Agents in Under 2 Hours</h3>
+
 
 
    
