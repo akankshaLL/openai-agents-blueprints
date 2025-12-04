@@ -1,0 +1,42 @@
+"""Persistent Memory Agent Example
+
+This example demonstrates automatic conversation memory:
+- Using run_demo_loop for persistent conversation sessions
+- Automatic memory management across multiple interactions
+- Building agents that remember context throughout conversations
+- Seamless multi-turn dialogue capabilities
+
+Shows the simplest way to add memory to conversational agents.
+
+Usage:
+    python 09_persistent_memory.py
+    (Conversation history is maintained automatically)
+"""
+
+import os
+import asyncio
+from dotenv import load_dotenv
+from agents import Agent, run_demo_loop
+
+# Load environment variables
+load_dotenv()
+
+# Verify API key is available
+api_key = os.getenv("OPENAI_API_KEY")
+if not api_key:
+    raise ValueError("OPENAI_API_KEY not found. Check your .env file.")
+
+if not api_key.startswith("sk-"):
+    raise ValueError("Invalid OpenAI API key format.")
+
+async def main():
+    agent = Agent(
+        name="FriendlyAssistant",
+        instructions="You are a helpful assistant with good memory."
+    )
+   
+    print("Starting conversation. Type 'quit' to exit.")
+    await run_demo_loop(agent)
+
+if __name__ == "__main__":
+    asyncio.run(main())
